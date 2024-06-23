@@ -1,3 +1,0 @@
-cd rss-puzzle 
-npm run format
-npm run ci:format

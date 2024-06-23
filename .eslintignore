@@ -1,6 +1,0 @@
-webpack.config.js
-webpack.d.conf.js
-webpack.p.conf.js
-.eslintrc.js
-/dist
-validate-branch.js
