@@ -1,0 +1,69 @@
+.start-page {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(240, 248, 255, 0.584);
+    border-radius: 10px;
+}
+
+.start-wrapper {
+    max-width: 700px;
+    width: 100%;
+    max-height: 300px;
+    background-color: rgb(66 39 17 / 93%);
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+    padding: 10px;
+    overflow: auto;
+}
+
+.start-title {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 35px;
+    background-color: rgb(252 140 99);
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 10px 10px 10px;
+}
+
+.start-description {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.greeting {
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: 10px 10px 10px;
+    text-align: center;
+    background: linear-gradient(
+        270deg,
+        rgba(240, 248, 255, 0.913),
+        rgba(74, 237, 202, 0.895),
+        rgba(241, 151, 83, 0.868),
+        rgba(237, 118, 227, 0.9)
+    );
+    background-size: 200% 200%;
+    animation: titleRainbow 3s ease-in-out infinite;
+}
+
+@keyframes titleRainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
